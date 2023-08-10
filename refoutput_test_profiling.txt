@@ -1,0 +1,37 @@
+The current board is:
+. n k . . b . .
+. r p . n r . .
+. p . . p p . .
+p . q . . . . p
+. . P p P P . .
+P P . P . P . b
+. . . B R . Q P
+R N . . . . K .
+----------------------------------------------------------------------------
+         199498918 function calls (198542998 primitive calls) in 123.972 seconds
+
+   Random listing order was used
+   List reduced from 73 to 3 due to restriction <'h_minimax|max_node|min_node'>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000  123.972  123.972 games.py:44(h_minimax)
+ 929130/1    0.835    0.000  123.972  123.972 games.py:48(max_node)
+ 26819/28    1.706    0.000  123.971    4.428 games.py:68(min_node)
+
+
+
+h_minimax return is hvalue -0.03, move g2h3
+----------------------------------------------------------------------------
+         3007999 function calls (2993068 primitive calls) in 1.925 seconds
+
+   Random listing order was used
+   List reduced from 74 to 3 due to restriction <'h_minimax_alpha_beta|max_node_ab|min_node_ab'>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    1.925    1.925 games.py:91(h_minimax_alpha_beta)
+  13480/1    0.015    0.000    1.925    1.925 games.py:95(max_node_ab)
+  1480/28    0.030    0.000    1.924    0.069 games.py:118(min_node_ab)
+
+
+
+h_minimax_alpha_beta return is hvalue -0.03, move g2h3

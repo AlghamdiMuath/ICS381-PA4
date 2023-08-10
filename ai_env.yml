@@ -1,0 +1,16 @@
+name: ai_env
+channels:
+- auto
+- conda-forge
+- anaconda
+- defaults
+dependencies:
+- python=3.10
+- numpy
+- pandas
+- seaborn
+- matplotlib
+- seaborn
+- scikit-learn
+- pathlib
+- pip

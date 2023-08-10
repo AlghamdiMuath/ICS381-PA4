@@ -1,0 +1,45 @@
+The current board is:
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+P P P P P P P P
+R N B Q K B N R
+----------------------------------------------------------------------------
+After calling h_minimax_alpha_beta the board should not change:
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+P P P P P P P P
+R N B Q K B N R
+----------------------------------------------------------------------------
+White player uses h_minimax_alpha_beta. hvalue 0.0, move g1h3
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . N
+P P P P P P P P
+R N B Q K B . R
+----------------------------------------------------------------------------
+White player uses h_minimax_alpha_beta. hvalue 0.01, move h3g5
+White player uses h_minimax_alpha_beta. hvalue 0.01, move h1g1
+White player uses h_minimax_alpha_beta. hvalue 0.01, move g1h1
+White player uses h_minimax_alpha_beta. hvalue 0.01, move h1g1
+White player uses h_minimax_alpha_beta. hvalue 0.05, move e2d3
+White player uses h_minimax_alpha_beta. hvalue 0.07, move d1f3
+White player uses h_minimax_alpha_beta. hvalue 0.07, move f3f5
+White player uses h_minimax_alpha_beta. hvalue 0.07, move f5e5
+White player uses h_minimax_alpha_beta. hvalue 0.07, move g5e4
+White player uses h_minimax_alpha_beta. hvalue 0.08, move f2e3
+----------------------------------------------------------------------------
+progressing game until it is over.
+White player uses h_minimax_alpha_beta. hvalue 1, move e4d6
+----------------------------------------------------------------------------
+game is over with outcome status Termination.CHECKMATE and winner WHITE
